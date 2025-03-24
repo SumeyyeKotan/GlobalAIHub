@@ -75,7 +75,7 @@ class MetroAgi:
                     heapq.heappush(pq, (mevcut_sure + sure, id(komsu), komsu, yol + [komsu], mevcut_sure + sure))
         return None
 
-# Örnek Kullanım (değişiklik yok)
+# Örnek Kullanım
 if __name__ == "__main__":
     metro = MetroAgi()
 
