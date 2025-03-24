@@ -49,7 +49,8 @@ A*, seyahat süresini ve tahmini hedef uzaklığını dikkate alarak, en kısa s
         rota, sure = sonuc
         print(f"En hızlı rota ({sure} dakika):", " -> ".join(i.ad for i in rota))
 
-Test sonucu: 
+Test sonucu:
+
 4. Kızılay'dan Keçiören'e:
 En az aktarmalı rota: Kızılay -> Ulus -> Demetevler -> Demetevler -> Gar -> Keçiören
 En hızlı rota (16 dakika): Kızılay -> Kızılay -> Sıhhiye -> Gar -> Gar -> Keçiören
@@ -67,6 +68,7 @@ En hızlı rota (16 dakika): Kızılay -> Kızılay -> Sıhhiye -> Gar -> Gar ->
         print(f"En hızlı rota ({sure} dakika):", " -> ".join(i.ad for i in rota))
 
 Test Sonucu:
+
 5. AŞTİ'den Gar'a:
 En az aktarmalı rota: AŞTİ -> Kızılay -> Sıhhiye -> Gar -> Gar
 En hızlı rota (14 dakika): AŞTİ -> Kızılay -> Sıhhiye -> Gar -> Gar
